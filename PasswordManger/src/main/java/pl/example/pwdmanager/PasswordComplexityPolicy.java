@@ -9,7 +9,7 @@ public class PasswordComplexityPolicy {
 
         int pwdLenght = password.length();
         int digitCount = 0;
-        for (int i = 1; i < pwdLenght ; i++) {
+        for (int i = 0; i < pwdLenght ; i++) {
             if (Character.isDigit(password.charAt(i))){
                 digitCount++;
             }
